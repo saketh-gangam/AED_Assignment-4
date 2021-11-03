@@ -111,7 +111,7 @@ public class ManageVitalSignsJPanel extends javax.swing.JPanel {
         
         int bloodPressure = vitalSign.getBloodPressure();
         
-        if (bloodPressure < 80 && bloodPressure > 120){
+        if (bloodPressure < 80 || bloodPressure > 120){
             
             vitalSignStatus = "Abnormal";
         }
